@@ -1,8 +1,8 @@
 # final-project
 
-Supervised Machine Learning Model created using XGBoost to predict a History of mental illness based off of 14 socioeconomic factors. Factors are visualized using Tableau. 
+Supervised Machine Learning Model created using XGBoost to predict a History of mental illness based on 14 socioeconomic factors. Factors are visualized using Tableau. 
 
-Preprocessing of the data included binning ages and incomes to prevent overfitting, ordinal encoding and dummies encoding for of the categorical data. SMOTE was used in the optimization model to synthesize data and decrease the imbalance in order to increase recall. 
+Preprocessing of the data included binning ages and incomes to prevent overfitting, ordinal encoding and dummies encoding of the categorical data. SMOTE was used in the optimization model to synthesize data and decrease the imbalance in order to increase recall. 
 
 Initial model: while the accuracy was about 70% on the initial model, this is likely due to the imbalance in the data causing the model to select "no" every time (data is approximately 30% yes and 70% no). The extremely low recall, 0.02%, for this model is further evidence of this, showing the model is recalling almost none of the true positives. The AUC score of 0.50 means the model is right about half the time, therefore not an ideal predictor of mental health. 
 
