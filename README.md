@@ -16,6 +16,9 @@ For the final model, accuracy was still about 70%, but recall increased to 58% a
 
 <img width="379" alt="optimized_model" src="https://github.com/user-attachments/assets/7f38f533-ab0c-4b11-acc9-289ce2d6a356" />
 
+<img width="263" alt="optimization_values" src="https://github.com/user-attachments/assets/0ce8fcf1-63c0-4476-a184-6cf181d560a9" />
+
+
 <img width="438" alt="classification_optimization" src="https://github.com/user-attachments/assets/08bf68d2-048a-48cf-bb6f-ec1831c1987d" />
 
 Precision/Recall Graph: shows the trade off between precision and recall for this model. 
